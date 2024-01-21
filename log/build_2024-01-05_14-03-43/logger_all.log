@@ -1,0 +1,249 @@
+[1.408s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.408s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f83e3594e20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f83e36ebc70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f83e36ebc70>>)
+[1.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.523s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/borowa/ros2_ws'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'ignore'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'ignore_ament_install'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['colcon_pkg']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'colcon_pkg'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['colcon_meta']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'colcon_meta'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['ros']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'ros'
+[1.540s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_subscriber' with type 'ros.ament_python' and name 'camera_subscriber'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extension 'ignore'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extension 'ignore_ament_install'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extensions ['colcon_pkg']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extension 'colcon_pkg'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extensions ['colcon_meta']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extension 'colcon_meta'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extensions ['ros']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_demos_gazebo) by extension 'ros'
+[1.542s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors_demos_gazebo' with type 'ros.ament_python' and name 'sensors_demos_gazebo'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[1.550s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.702s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/borowa/ros2_ws/install
+[1.716s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[1.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_args' from command line to 'None'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_target' from command line to 'None'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[1.810s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.810s] DEBUG:colcon.colcon_core.verb:Building package 'camera_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/borowa/ros2_ws/build/camera_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/borowa/ros2_ws/install/camera_subscriber', 'merge_install': False, 'path': '/home/borowa/ros2_ws/src/camera_subscriber', 'symlink_install': False, 'test_result_base': None}
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.824s] Level 5:colcon.colcon_core.verb:set package 'sensors_demos_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.824s] DEBUG:colcon.colcon_core.verb:Building package 'sensors_demos_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/borowa/ros2_ws/build/sensors_demos_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/borowa/ros2_ws/install/sensors_demos_gazebo', 'merge_install': False, 'path': '/home/borowa/ros2_ws/src/sensors_demos_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.838s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/borowa/ros2_ws/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/borowa/ros2_ws/install/usb_cam', 'merge_install': False, 'path': '/home/borowa/ros2_ws/src/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[1.852s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.866s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/borowa/ros2_ws/src/camera_subscriber' with build type 'ament_python'
+[1.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_subscriber', 'ament_prefix_path')
+[1.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.ps1'
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.dsv'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.sh'
+[1.925s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.925s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.970s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/borowa/ros2_ws/src/sensors_demos_gazebo' with build type 'ament_python'
+[1.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_demos_gazebo', 'ament_prefix_path')
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/hook/ament_prefix_path.ps1'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/hook/ament_prefix_path.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/hook/ament_prefix_path.sh'
+[2.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.053s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/borowa/ros2_ws/src/usb_cam' with build type 'ament_cmake'
+[2.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/borowa/ros2_ws/src/usb_cam'
+[2.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.358s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/borowa/ros2_ws/src/camera_subscriber'
+[2.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.656s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/borowa/ros2_ws/src/sensors_demos_gazebo'
+[2.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/borowa/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/borowa/ros2_ws/build/usb_cam -- -j4 -l4
+[3.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/borowa/ros2_ws/src/sensors_demos_gazebo': PYTHONPATH=/home/borowa/ros2_ws/build/sensors_demos_gazebo/prefix_override:/home/borowa/ros2_ws/install/sensors_demos_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_demos_gazebo build --build-base /home/borowa/ros2_ws/build/sensors_demos_gazebo/build install --record /home/borowa/ros2_ws/build/sensors_demos_gazebo/install.log --install-scripts $base/lib/sensors_demos_gazebo --single-version-externally-managed
+[3.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/borowa/ros2_ws/src/camera_subscriber': PYTHONPATH=/home/borowa/ros2_ws/build/camera_subscriber/prefix_override:/home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/borowa/ros2_ws/build/camera_subscriber/build install --record /home/borowa/ros2_ws/build/camera_subscriber/install.log --single-version-externally-managed
+[3.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/borowa/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/borowa/ros2_ws/build/usb_cam -- -j4 -l4
+[3.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/borowa/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/borowa/ros2_ws/build/usb_cam
+[3.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[3.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/borowa/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/borowa/ros2_ws/build/usb_cam
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam' for CMake module files
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam' for CMake config files
+[3.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[3.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[3.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[3.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/lib'
+[3.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[3.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[3.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/bin'
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/lib/python3.10/site-packages'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/bin'
+[3.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.ps1'
+[3.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.dsv'
+[3.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.sh'
+[3.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.bash'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.zsh'
+[3.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/borowa/ros2_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[3.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/borowa/ros2_ws/src/camera_subscriber' returned '0': PYTHONPATH=/home/borowa/ros2_ws/build/camera_subscriber/prefix_override:/home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/borowa/ros2_ws/build/camera_subscriber/build install --record /home/borowa/ros2_ws/build/camera_subscriber/install.log --single-version-externally-managed
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/camera_subscriber' for CMake module files
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/camera_subscriber' for CMake config files
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/camera_subscriber/lib'
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/camera_subscriber/bin'
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/camera_subscriber/lib/pkgconfig/camera_subscriber.pc'
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages'
+[3.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_subscriber', 'pythonpath')
+[3.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.ps1'
+[3.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.dsv'
+[3.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.sh'
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/camera_subscriber/bin'
+[3.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_subscriber)
+[3.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.ps1'
+[3.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.dsv'
+[3.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.sh'
+[3.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.bash'
+[3.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.zsh'
+[3.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/borowa/ros2_ws/install/camera_subscriber/share/colcon-core/packages/camera_subscriber)
+[3.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/borowa/ros2_ws/src/sensors_demos_gazebo' returned '0': PYTHONPATH=/home/borowa/ros2_ws/build/sensors_demos_gazebo/prefix_override:/home/borowa/ros2_ws/install/sensors_demos_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_demos_gazebo build --build-base /home/borowa/ros2_ws/build/sensors_demos_gazebo/build install --record /home/borowa/ros2_ws/build/sensors_demos_gazebo/install.log --install-scripts $base/lib/sensors_demos_gazebo --single-version-externally-managed
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/sensors_demos_gazebo' for CMake module files
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/sensors_demos_gazebo' for CMake config files
+[3.601s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/sensors_demos_gazebo/lib'
+[3.601s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/sensors_demos_gazebo/bin'
+[3.601s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/sensors_demos_gazebo/lib/pkgconfig/sensors_demos_gazebo.pc'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/sensors_demos_gazebo/lib/python3.10/site-packages'
+[3.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_demos_gazebo', 'pythonpath')
+[3.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/hook/pythonpath.ps1'
+[3.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/hook/pythonpath.dsv'
+[3.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/hook/pythonpath.sh'
+[3.618s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/sensors_demos_gazebo/bin'
+[3.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors_demos_gazebo)
+[3.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/package.ps1'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/package.dsv'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/package.sh'
+[3.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/package.bash'
+[3.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/sensors_demos_gazebo/package.zsh'
+[3.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/borowa/ros2_ws/install/sensors_demos_gazebo/share/colcon-core/packages/sensors_demos_gazebo)
+[3.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam' for CMake module files
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam' for CMake config files
+[3.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[3.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[3.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[3.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[3.687s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/lib'
+[3.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[3.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[3.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[3.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/bin'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/lib/python3.10/site-packages'
+[3.703s] Level 1:colcon.colcon_core.environment:checking '/home/borowa/ros2_ws/install/usb_cam/bin'
+[3.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.ps1'
+[3.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.dsv'
+[3.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.sh'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.bash'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.zsh'
+[3.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/borowa/ros2_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[3.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.722s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.749s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.797s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/borowa/ros2_ws/install/local_setup.ps1'
+[3.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/borowa/ros2_ws/install/_local_setup_util_ps1.py'
+[3.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/borowa/ros2_ws/install/setup.ps1'
+[3.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/borowa/ros2_ws/install/local_setup.sh'
+[3.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/borowa/ros2_ws/install/_local_setup_util_sh.py'
+[3.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/borowa/ros2_ws/install/setup.sh'
+[3.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/borowa/ros2_ws/install/local_setup.bash'
+[3.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/borowa/ros2_ws/install/setup.bash'
+[3.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/borowa/ros2_ws/install/local_setup.zsh'
+[3.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/borowa/ros2_ws/install/setup.zsh'

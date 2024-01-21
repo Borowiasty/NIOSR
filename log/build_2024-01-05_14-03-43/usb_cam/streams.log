@@ -1,0 +1,70 @@
+[0.675s] Invoking command in '/home/borowa/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/borowa/ros2_ws/build/usb_cam -- -j4 -l4
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node_exe[0m
+[0.963s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.963s] [35m[1mConsolidate compiler generated dependencies of target usb_cam[0m
+[0.981s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.023s] [ 14%] Built target gtest_main
+[1.029s] [ 28%] Built target gtest
+[1.067s] [ 42%] Built target usb_cam
+[1.103s] [ 57%] Built target usb_cam_node_exe
+[1.108s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node[0m
+[1.108s] [35m[1mConsolidate compiler generated dependencies of target test_pixel_formats[0m
+[1.125s] [35m[1mConsolidate compiler generated dependencies of target test_usb_cam_utils[0m
+[1.135s] [ 71%] Built target test_pixel_formats
+[1.166s] [ 85%] Built target test_usb_cam_utils
+[1.181s] [100%] Built target usb_cam_node
+[1.208s] Invoked command in '/home/borowa/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/borowa/ros2_ws/build/usb_cam -- -j4 -l4
+[1.306s] Invoking command in '/home/borowa/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/borowa/ros2_ws/build/usb_cam
+[1.317s] -- Install configuration: ""
+[1.317s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[1.317s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[1.318s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[1.319s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/lib/usb_cam/show_image.py
+[1.320s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/lib/libusb_cam.so
+[1.321s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+[1.321s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include
+[1.322s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam
+[1.323s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/utils.hpp
+[1.323s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[1.323s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[1.323s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[1.323s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/constants.hpp
+[1.323s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats
+[1.324s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[1.324s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[1.324s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+[1.325s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/launch
+[1.326s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[1.327s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[1.327s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[1.327s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/config
+[1.328s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[1.328s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[1.328s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[1.329s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[1.329s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[1.330s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[1.330s] -- Installing: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.dsv
+[1.331s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[1.332s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[1.333s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[1.333s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.333s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.333s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[1.333s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[1.333s] -- Up-to-date: /home/borowa/ros2_ws/install/usb_cam/share/usb_cam/package.xml
+[1.350s] Invoked command in '/home/borowa/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/borowa/ros2_ws/install/sensors_demos_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/borowa/ros2_ws/build/usb_cam

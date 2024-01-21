@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/projekt_niodsr/projekt_niodsr.egg-info/PKG-INFO
+../../build/projekt_niodsr/projekt_niodsr.egg-info/SOURCES.txt
+../../build/projekt_niodsr/projekt_niodsr.egg-info/dependency_links.txt
+../../build/projekt_niodsr/projekt_niodsr.egg-info/entry_points.txt
+../../build/projekt_niodsr/projekt_niodsr.egg-info/requires.txt
+../../build/projekt_niodsr/projekt_niodsr.egg-info/top_level.txt
+../../build/projekt_niodsr/projekt_niodsr.egg-info/zip-safe
+projekt_niodsr/__init__.py
+projekt_niodsr/publisher.py
+resource/projekt_niodsr

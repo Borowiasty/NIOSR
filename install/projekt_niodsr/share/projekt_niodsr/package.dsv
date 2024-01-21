@@ -1,0 +1,6 @@
+source;share/projekt_niodsr/hook/pythonpath.ps1
+source;share/projekt_niodsr/hook/pythonpath.dsv
+source;share/projekt_niodsr/hook/pythonpath.sh
+source;share/projekt_niodsr/hook/ament_prefix_path.ps1
+source;share/projekt_niodsr/hook/ament_prefix_path.dsv
+source;share/projekt_niodsr/hook/ament_prefix_path.sh

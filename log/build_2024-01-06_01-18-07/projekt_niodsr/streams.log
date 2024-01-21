@@ -1,0 +1,26 @@
+[1.464s] Invoking command in '/home/borowa/ros2_ws/src/projekt_niodsr': PYTHONPATH=/home/borowa/ros2_ws/build/projekt_niodsr/prefix_override:/home/borowa/ros2_ws/install/projekt_niodsr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/projekt_niodsr build --build-base /home/borowa/ros2_ws/build/projekt_niodsr/build install --record /home/borowa/ros2_ws/build/projekt_niodsr/install.log --single-version-externally-managed
+[1.706s] running egg_info
+[1.707s] writing ../../build/projekt_niodsr/projekt_niodsr.egg-info/PKG-INFO
+[1.708s] writing dependency_links to ../../build/projekt_niodsr/projekt_niodsr.egg-info/dependency_links.txt
+[1.708s] writing entry points to ../../build/projekt_niodsr/projekt_niodsr.egg-info/entry_points.txt
+[1.709s] writing requirements to ../../build/projekt_niodsr/projekt_niodsr.egg-info/requires.txt
+[1.709s] writing top-level names to ../../build/projekt_niodsr/projekt_niodsr.egg-info/top_level.txt
+[1.710s] reading manifest file '../../build/projekt_niodsr/projekt_niodsr.egg-info/SOURCES.txt'
+[1.711s] writing manifest file '../../build/projekt_niodsr/projekt_niodsr.egg-info/SOURCES.txt'
+[1.711s] running build
+[1.712s] running build_py
+[1.712s] copying projekt_niodsr/publisher.py -> /home/borowa/ros2_ws/build/projekt_niodsr/build/lib/projekt_niodsr
+[1.713s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.713s]   warnings.warn(
+[1.713s] running install
+[1.713s] running install_lib
+[1.713s] copying /home/borowa/ros2_ws/build/projekt_niodsr/build/lib/projekt_niodsr/publisher.py -> /home/borowa/ros2_ws/install/projekt_niodsr/lib/python3.10/site-packages/projekt_niodsr
+[1.714s] byte-compiling /home/borowa/ros2_ws/install/projekt_niodsr/lib/python3.10/site-packages/projekt_niodsr/publisher.py to publisher.cpython-310.pyc
+[1.715s] running install_data
+[1.715s] running install_egg_info
+[1.719s] removing '/home/borowa/ros2_ws/install/projekt_niodsr/lib/python3.10/site-packages/projekt_niodsr-0.0.0-py3.10.egg-info' (and everything under it)
+[1.719s] Copying ../../build/projekt_niodsr/projekt_niodsr.egg-info to /home/borowa/ros2_ws/install/projekt_niodsr/lib/python3.10/site-packages/projekt_niodsr-0.0.0-py3.10.egg-info
+[1.720s] running install_scripts
+[1.746s] Installing publisher script to /home/borowa/ros2_ws/install/projekt_niodsr/lib/projekt_niodsr
+[1.747s] writing list of installed files to '/home/borowa/ros2_ws/build/projekt_niodsr/install.log'
+[1.823s] Invoked command in '/home/borowa/ros2_ws/src/projekt_niodsr' returned '0': PYTHONPATH=/home/borowa/ros2_ws/build/projekt_niodsr/prefix_override:/home/borowa/ros2_ws/install/projekt_niodsr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/projekt_niodsr build --build-base /home/borowa/ros2_ws/build/projekt_niodsr/build install --record /home/borowa/ros2_ws/build/projekt_niodsr/install.log --single-version-externally-managed

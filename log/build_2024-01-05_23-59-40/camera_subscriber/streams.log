@@ -1,0 +1,26 @@
+[2.113s] Invoking command in '/home/borowa/ros2_ws/src/camera_subscriber': PYTHONPATH=/home/borowa/ros2_ws/build/camera_subscriber/prefix_override:/home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/borowa/ros2_ws/build/camera_subscriber/build install --record /home/borowa/ros2_ws/build/camera_subscriber/install.log --single-version-externally-managed
+[2.374s] running egg_info
+[2.374s] writing ../../build/camera_subscriber/camera_subscriber.egg-info/PKG-INFO
+[2.375s] writing dependency_links to ../../build/camera_subscriber/camera_subscriber.egg-info/dependency_links.txt
+[2.375s] writing entry points to ../../build/camera_subscriber/camera_subscriber.egg-info/entry_points.txt
+[2.375s] writing requirements to ../../build/camera_subscriber/camera_subscriber.egg-info/requires.txt
+[2.375s] writing top-level names to ../../build/camera_subscriber/camera_subscriber.egg-info/top_level.txt
+[2.375s] reading manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'
+[2.375s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.375s]   warnings.warn(
+[2.375s] writing manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'
+[2.375s] running build
+[2.375s] running build_py
+[2.375s] copying camera_subscriber/publisher.py -> /home/borowa/ros2_ws/build/camera_subscriber/build/lib/camera_subscriber
+[2.375s] running install
+[2.375s] running install_lib
+[2.375s] copying /home/borowa/ros2_ws/build/camera_subscriber/build/lib/camera_subscriber/publisher.py -> /home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber
+[2.376s] byte-compiling /home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/publisher.py to publisher.cpython-310.pyc
+[2.376s] running install_data
+[2.376s] running install_egg_info
+[2.376s] removing '/home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[2.376s] Copying ../../build/camera_subscriber/camera_subscriber.egg-info to /home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info
+[2.379s] running install_scripts
+[2.409s] Installing camera_node script to /home/borowa/ros2_ws/install/camera_subscriber/lib/camera_subscriber
+[2.409s] writing list of installed files to '/home/borowa/ros2_ws/build/camera_subscriber/install.log'
+[2.543s] Invoked command in '/home/borowa/ros2_ws/src/camera_subscriber' returned '0': PYTHONPATH=/home/borowa/ros2_ws/build/camera_subscriber/prefix_override:/home/borowa/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/borowa/ros2_ws/build/camera_subscriber/build install --record /home/borowa/ros2_ws/build/camera_subscriber/install.log --single-version-externally-managed

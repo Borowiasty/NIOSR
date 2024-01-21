@@ -1,0 +1,29 @@
+[2.012s] Invoking command in '/home/borowa/ros2_ws/src/moja_paczka': PYTHONPATH=/home/borowa/ros2_ws/build/moja_paczka/prefix_override:/home/borowa/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/moja_paczka build --build-base /home/borowa/ros2_ws/build/moja_paczka/build install --record /home/borowa/ros2_ws/build/moja_paczka/install.log --single-version-externally-managed
+[2.272s] running egg_info
+[2.273s] writing ../../build/moja_paczka/moja_paczka.egg-info/PKG-INFO
+[2.275s] writing dependency_links to ../../build/moja_paczka/moja_paczka.egg-info/dependency_links.txt
+[2.275s] writing entry points to ../../build/moja_paczka/moja_paczka.egg-info/entry_points.txt
+[2.275s] writing requirements to ../../build/moja_paczka/moja_paczka.egg-info/requires.txt
+[2.275s] writing top-level names to ../../build/moja_paczka/moja_paczka.egg-info/top_level.txt
+[2.276s] reading manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'
+[2.279s] writing manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'
+[2.280s] running build
+[2.280s] running build_py
+[2.280s] running install
+[2.281s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.281s]   warnings.warn(
+[2.281s] running install_lib
+[2.282s] byte-compiling /home/borowa/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka/publisher.py to publisher.cpython-310.pyc
+[2.283s]   File "/home/borowa/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka/publisher.py", line 35
+[2.283s]     if self.x_y[1] > self.window_size[1]
+[2.283s]                                         ^
+[2.283s] SyntaxError: expected ':'
+[2.284s] 
+[2.284s] running install_data
+[2.284s] running install_egg_info
+[2.290s] removing '/home/borowa/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info' (and everything under it)
+[2.291s] Copying ../../build/moja_paczka/moja_paczka.egg-info to /home/borowa/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info
+[2.294s] running install_scripts
+[2.318s] Installing publisher script to /home/borowa/ros2_ws/install/moja_paczka/lib/moja_paczka
+[2.318s] writing list of installed files to '/home/borowa/ros2_ws/build/moja_paczka/install.log'
+[2.428s] Invoked command in '/home/borowa/ros2_ws/src/moja_paczka' returned '0': PYTHONPATH=/home/borowa/ros2_ws/build/moja_paczka/prefix_override:/home/borowa/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/moja_paczka build --build-base /home/borowa/ros2_ws/build/moja_paczka/build install --record /home/borowa/ros2_ws/build/moja_paczka/install.log --single-version-externally-managed
