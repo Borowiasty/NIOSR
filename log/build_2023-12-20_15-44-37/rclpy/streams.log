@@ -1,0 +1,80 @@
+[1.408s] Invoking command in '/home/vboxuser/ros2_ws/build/rclpy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/rclpy/rclpy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/rclpy
+[2.183s] -- The C compiler identification is GNU 11.4.0
+[2.825s] -- The CXX compiler identification is GNU 11.4.0
+[2.879s] -- Detecting C compiler ABI info
+[3.428s] -- Detecting C compiler ABI info - done
+[3.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.518s] -- Detecting C compile features
+[3.525s] -- Detecting C compile features - done
+[3.557s] -- Detecting CXX compiler ABI info
+[3.888s] -- Detecting CXX compiler ABI info - done
+[3.978s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.981s] -- Detecting CXX compile features
+[3.986s] -- Detecting CXX compile features - done
+[4.027s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.870s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.473s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[5.802s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.829s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.882s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.964s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.204s] -- Found rcl: 5.3.6 (/opt/ros/humble/share/rcl/cmake)
+[6.947s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.963s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.463s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.628s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.882s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.951s] -- Looking for pthread.h
+[8.277s] -- Looking for pthread.h - found
+[8.278s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.567s] -- Found Threads: TRUE  
+[8.614s] -- Found rcl_action: 5.3.6 (/opt/ros/humble/share/rcl_action/cmake)
+[9.224s] -- Found rcl_lifecycle: 5.3.6 (/opt/ros/humble/share/rcl_lifecycle/cmake)
+[9.878s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[9.890s] -- Found pybind11_vendor: 2.4.2 (/opt/ros/humble/share/pybind11_vendor/cmake)
+[10.049s] -- Performing Test HAS_FLTO
+[10.667s] -- Performing Test HAS_FLTO - Success
+[10.669s] -- Found pybind11: /usr/include (found version "2.9.1")
+[10.964s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.439s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[63.216s] -- Added test 'copyright' to check source files copyright and LICENSE
+[63.237s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[63.237s] -- Configured cpplint exclude dirs and/or files: 
+[63.242s] -- Added test 'flake8' to check Python code syntax and style conventions
+[63.249s] -- Added test 'lint_cmake' to check CMake code style
+[63.255s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[63.281s] -- Added test 'uncrustify' to check C / C++ code style
+[63.282s] -- Configured uncrustify additional arguments: 
+[63.288s] -- Added test 'xmllint' to check XML markup files
+[63.296s] -- Configuring done
+[63.397s] -- Generating done
+[63.414s] -- Build files have been written to: /home/vboxuser/ros2_ws/build/rclpy
+[63.473s] Invoked command in '/home/vboxuser/ros2_ws/build/rclpy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/rclpy/rclpy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/rclpy
+[63.474s] Invoking command in '/home/vboxuser/ros2_ws/build/rclpy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/rclpy -- -j2 -l2
+[63.663s] [  0%] Built target ament_cmake_python_symlink_rclpy
+[63.733s] [  2%] [32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o[0m
+[67.419s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kbool rclpy_logging_rosout_add_sublogger(const char*, const char*)[m[K’:
+[67.419s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:213:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_logging_rosout_add_sublogger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclpy_logging_rosout_add_sublogger[m[K’?
+[67.420s]   213 |   rcl_ret_t rcl_ret = [01;31m[Krcl_logging_rosout_add_sublogger[m[K(logger_name, sublogger_name);
+[67.420s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[67.421s]       |                       [32m[Krclpy_logging_rosout_add_sublogger[m[K
+[67.446s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:216:14:[m[K [01;31m[Kerror: [m[K‘[01m[KRCL_RET_NOT_FOUND[m[K’ was not declared in this scope; did you mean ‘[01m[KRCUTILS_RET_NOT_FOUND[m[K’?
+[67.446s]   216 |   } else if ([01;31m[KRCL_RET_NOT_FOUND[m[K == rcl_ret) {
+[67.446s]       |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[67.447s]       |              [32m[KRCUTILS_RET_NOT_FOUND[m[K
+[67.460s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kvoid rclpy_logging_rosout_remove_sublogger(const char*, const char*)[m[K’:
+[67.461s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:230:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_logging_rosout_remove_sublogger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclpy_logging_rosout_remove_sublogger[m[K’?
+[67.461s]   230 |   rcl_ret_t rcl_ret = [01;31m[Krcl_logging_rosout_remove_sublogger[m[K(logger_name, sublogger_name);
+[67.461s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[67.462s]       |                       [32m[Krclpy_logging_rosout_remove_sublogger[m[K
+[69.852s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kbool rclpy_logging_rosout_add_sublogger(const char*, const char*)[m[K’:
+[69.853s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:223:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[69.853s]   223 | [01;35m[K}[m[K
+[69.853s]       | [01;35m[K^[m[K
+[70.335s] gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:76: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o] Error 1
+[70.336s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/_rclpy_pybind11.dir/all] Error 2
+[70.336s] gmake: *** [Makefile:146: all] Error 2
+[70.347s] Invoked command in '/home/vboxuser/ros2_ws/build/rclpy' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/rclpy -- -j2 -l2

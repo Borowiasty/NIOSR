@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000395] (moja_paczka) JobQueued: {'identifier': 'moja_paczka', 'dependencies': OrderedDict()}
+[0.000454] (moja_paczka) JobStarted: {'identifier': 'moja_paczka'}
+[0.094656] (-) TimerEvent: {}
+[0.195216] (-) TimerEvent: {}
+[0.296009] (-) TimerEvent: {}
+[0.401585] (-) TimerEvent: {}
+[0.502056] (-) TimerEvent: {}
+[0.603381] (-) TimerEvent: {}
+[0.706325] (-) TimerEvent: {}
+[0.806946] (-) TimerEvent: {}
+[0.907393] (-) TimerEvent: {}
+[1.008205] (-) TimerEvent: {}
+[1.109137] (-) TimerEvent: {}
+[1.209621] (-) TimerEvent: {}
+[1.310026] (-) TimerEvent: {}
+[1.411193] (-) TimerEvent: {}
+[1.517356] (-) TimerEvent: {}
+[1.618167] (-) TimerEvent: {}
+[1.718763] (-) TimerEvent: {}
+[1.819269] (-) TimerEvent: {}
+[1.919834] (-) TimerEvent: {}
+[2.020287] (-) TimerEvent: {}
+[2.120660] (-) TimerEvent: {}
+[2.221197] (-) TimerEvent: {}
+[2.321756] (-) TimerEvent: {}
+[2.422202] (-) TimerEvent: {}
+[2.522783] (-) TimerEvent: {}
+[2.623259] (-) TimerEvent: {}
+[2.723899] (-) TimerEvent: {}
+[2.824447] (-) TimerEvent: {}
+[2.925023] (-) TimerEvent: {}
+[3.026160] (-) TimerEvent: {}
+[3.143469] (-) TimerEvent: {}
+[3.248151] (-) TimerEvent: {}
+[3.351266] (-) TimerEvent: {}
+[3.469025] (-) TimerEvent: {}
+[3.571701] (-) TimerEvent: {}
+[3.685522] (-) TimerEvent: {}
+[3.786131] (-) TimerEvent: {}
+[3.887333] (-) TimerEvent: {}
+[3.987770] (-) TimerEvent: {}
+[4.088573] (-) TimerEvent: {}
+[4.189605] (-) TimerEvent: {}
+[4.291296] (-) TimerEvent: {}
+[4.391966] (-) TimerEvent: {}
+[4.492451] (-) TimerEvent: {}
+[4.593482] (-) TimerEvent: {}
+[4.694091] (-) TimerEvent: {}
+[4.794985] (-) TimerEvent: {}
+[4.895471] (-) TimerEvent: {}
+[4.996269] (-) TimerEvent: {}
+[5.096711] (-) TimerEvent: {}
+[5.197988] (-) TimerEvent: {}
+[5.298456] (-) TimerEvent: {}
+[5.399760] (-) TimerEvent: {}
+[5.500162] (-) TimerEvent: {}
+[5.600709] (-) TimerEvent: {}
+[5.703366] (-) TimerEvent: {}
+[5.804055] (-) TimerEvent: {}
+[5.904999] (-) TimerEvent: {}
+[6.006200] (-) TimerEvent: {}
+[6.106975] (-) TimerEvent: {}
+[6.207633] (-) TimerEvent: {}
+[6.308184] (-) TimerEvent: {}
+[6.408793] (-) TimerEvent: {}
+[6.509399] (moja_paczka) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/moja_paczka', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/moja_paczka/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/moja_paczka/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/ros2_ws/src/moja_paczka', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '1964', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/home/vboxuser/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1022,unix/ubuntu:/tmp/.ICE-unix/1022', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e42d92d3_8c7a_46d5_892b_90162507ebf6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WJP7F2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.92', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/moja_paczka', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/moja_paczka/prefix_override:/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.510957] (-) TimerEvent: {}
+[6.611509] (-) TimerEvent: {}
+[6.712038] (-) TimerEvent: {}
+[6.812640] (-) TimerEvent: {}
+[6.913148] (-) TimerEvent: {}
+[7.017340] (-) TimerEvent: {}
+[7.118261] (-) TimerEvent: {}
+[7.218875] (-) TimerEvent: {}
+[7.319339] (-) TimerEvent: {}
+[7.419769] (-) TimerEvent: {}
+[7.520619] (-) TimerEvent: {}
+[7.621088] (-) TimerEvent: {}
+[7.721762] (-) TimerEvent: {}
+[7.822276] (-) TimerEvent: {}
+[7.922910] (-) TimerEvent: {}
+[8.023585] (-) TimerEvent: {}
+[8.124268] (-) TimerEvent: {}
+[8.226294] (-) TimerEvent: {}
+[8.326820] (-) TimerEvent: {}
+[8.399758] (moja_paczka) StdoutLine: {'line': b'running egg_info\n'}
+[8.400967] (moja_paczka) StdoutLine: {'line': b'creating ../../build/moja_paczka/moja_paczka.egg-info\n'}
+[8.401571] (moja_paczka) StdoutLine: {'line': b'writing ../../build/moja_paczka/moja_paczka.egg-info/PKG-INFO\n'}
+[8.402140] (moja_paczka) StdoutLine: {'line': b'writing dependency_links to ../../build/moja_paczka/moja_paczka.egg-info/dependency_links.txt\n'}
+[8.402573] (moja_paczka) StdoutLine: {'line': b'writing entry points to ../../build/moja_paczka/moja_paczka.egg-info/entry_points.txt\n'}
+[8.403022] (moja_paczka) StdoutLine: {'line': b'writing requirements to ../../build/moja_paczka/moja_paczka.egg-info/requires.txt\n'}
+[8.403362] (moja_paczka) StdoutLine: {'line': b'writing top-level names to ../../build/moja_paczka/moja_paczka.egg-info/top_level.txt\n'}
+[8.404154] (moja_paczka) StdoutLine: {'line': b"writing manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'\n"}
+[8.408103] (moja_paczka) StdoutLine: {'line': b"reading manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'\n"}
+[8.410041] (moja_paczka) StdoutLine: {'line': b"writing manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'\n"}
+[8.410390] (moja_paczka) StdoutLine: {'line': b'running build\n'}
+[8.410680] (moja_paczka) StdoutLine: {'line': b'running build_py\n'}
+[8.410999] (moja_paczka) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/build/moja_paczka/build\n'}
+[8.411250] (moja_paczka) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/build/moja_paczka/build/lib\n'}
+[8.411560] (moja_paczka) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka\n'}
+[8.411857] (moja_paczka) StdoutLine: {'line': b'copying moja_paczka/publisher.py -> /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka\n'}
+[8.415760] (moja_paczka) StdoutLine: {'line': b'copying moja_paczka/__init__.py -> /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka\n'}
+[8.416489] (moja_paczka) StdoutLine: {'line': b'running install\n'}
+[8.418053] (moja_paczka) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.418300] (moja_paczka) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.418792] (moja_paczka) StdoutLine: {'line': b'running install_lib\n'}
+[8.420727] (moja_paczka) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka\n'}
+[8.421044] (moja_paczka) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka/publisher.py -> /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka\n'}
+[8.421366] (moja_paczka) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka/__init__.py -> /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka\n'}
+[8.422377] (moja_paczka) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka/publisher.py to publisher.cpython-310.pyc\n'}
+[8.423880] (moja_paczka) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka/__init__.py to __init__.cpython-310.pyc\n'}
+[8.424387] (moja_paczka) StdoutLine: {'line': b'running install_data\n'}
+[8.425885] (moja_paczka) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index\n'}
+[8.426209] (moja_paczka) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index/resource_index\n'}
+[8.426482] (moja_paczka) StdoutLine: {'line': b'creating /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index/resource_index/packages\n'}
+[8.426800] (moja_paczka) StdoutLine: {'line': b'copying resource/moja_paczka -> /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index/resource_index/packages\n'}
+[8.426962] (-) TimerEvent: {}
+[8.427275] (moja_paczka) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ros2_ws/install/moja_paczka/share/moja_paczka\n'}
+[8.427494] (moja_paczka) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.431438] (moja_paczka) StdoutLine: {'line': b'Copying ../../build/moja_paczka/moja_paczka.egg-info to /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info\n'}
+[8.433573] (moja_paczka) StdoutLine: {'line': b'running install_scripts\n'}
+[8.527878] (-) TimerEvent: {}
+[8.539832] (moja_paczka) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/moja_paczka/install.log'\n"}
+[8.628055] (-) TimerEvent: {}
+[8.685118] (moja_paczka) CommandEnded: {'returncode': 0}
+[8.728722] (-) TimerEvent: {}
+[8.830233] (-) TimerEvent: {}
+[8.937879] (-) TimerEvent: {}
+[9.048459] (-) TimerEvent: {}
+[9.149268] (-) TimerEvent: {}
+[9.158530] (moja_paczka) JobEnded: {'identifier': 'moja_paczka', 'rc': 0}
+[9.168981] (-) EventReactorShutdown: {}

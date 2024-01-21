@@ -1,0 +1,38 @@
+[6.510s] Invoking command in '/home/vboxuser/ros2_ws/src/moja_paczka': PYTHONPATH=/home/vboxuser/ros2_ws/build/moja_paczka/prefix_override:/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/moja_paczka build --build-base /home/vboxuser/ros2_ws/build/moja_paczka/build install --record /home/vboxuser/ros2_ws/build/moja_paczka/install.log --single-version-externally-managed
+[8.400s] running egg_info
+[8.401s] creating ../../build/moja_paczka/moja_paczka.egg-info
+[8.401s] writing ../../build/moja_paczka/moja_paczka.egg-info/PKG-INFO
+[8.402s] writing dependency_links to ../../build/moja_paczka/moja_paczka.egg-info/dependency_links.txt
+[8.402s] writing entry points to ../../build/moja_paczka/moja_paczka.egg-info/entry_points.txt
+[8.403s] writing requirements to ../../build/moja_paczka/moja_paczka.egg-info/requires.txt
+[8.403s] writing top-level names to ../../build/moja_paczka/moja_paczka.egg-info/top_level.txt
+[8.404s] writing manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'
+[8.408s] reading manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'
+[8.410s] writing manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'
+[8.410s] running build
+[8.410s] running build_py
+[8.411s] creating /home/vboxuser/ros2_ws/build/moja_paczka/build
+[8.411s] creating /home/vboxuser/ros2_ws/build/moja_paczka/build/lib
+[8.411s] creating /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka
+[8.412s] copying moja_paczka/publisher.py -> /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka
+[8.415s] copying moja_paczka/__init__.py -> /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka
+[8.416s] running install
+[8.418s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.418s]   warnings.warn(
+[8.418s] running install_lib
+[8.420s] creating /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka
+[8.421s] copying /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka/publisher.py -> /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka
+[8.421s] copying /home/vboxuser/ros2_ws/build/moja_paczka/build/lib/moja_paczka/__init__.py -> /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka
+[8.422s] byte-compiling /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka/publisher.py to publisher.cpython-310.pyc
+[8.424s] byte-compiling /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka/__init__.py to __init__.cpython-310.pyc
+[8.424s] running install_data
+[8.426s] creating /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index
+[8.426s] creating /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index/resource_index
+[8.426s] creating /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index/resource_index/packages
+[8.426s] copying resource/moja_paczka -> /home/vboxuser/ros2_ws/install/moja_paczka/share/ament_index/resource_index/packages
+[8.427s] copying package.xml -> /home/vboxuser/ros2_ws/install/moja_paczka/share/moja_paczka
+[8.427s] running install_egg_info
+[8.431s] Copying ../../build/moja_paczka/moja_paczka.egg-info to /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info
+[8.433s] running install_scripts
+[8.540s] writing list of installed files to '/home/vboxuser/ros2_ws/build/moja_paczka/install.log'
+[8.685s] Invoked command in '/home/vboxuser/ros2_ws/src/moja_paczka' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/moja_paczka/prefix_override:/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/moja_paczka build --build-base /home/vboxuser/ros2_ws/build/moja_paczka/build install --record /home/vboxuser/ros2_ws/build/moja_paczka/install.log --single-version-externally-managed

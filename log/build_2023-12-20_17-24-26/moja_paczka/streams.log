@@ -1,0 +1,21 @@
+[10.492s] Invoking command in '/home/vboxuser/ros2_ws/src/moja_paczka': PYTHONPATH=/home/vboxuser/ros2_ws/build/moja_paczka/prefix_override:/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/moja_paczka build --build-base /home/vboxuser/ros2_ws/build/moja_paczka/build install --record /home/vboxuser/ros2_ws/build/moja_paczka/install.log --single-version-externally-managed
+[13.928s] running egg_info
+[13.941s] writing ../../build/moja_paczka/moja_paczka.egg-info/PKG-INFO
+[13.943s] writing dependency_links to ../../build/moja_paczka/moja_paczka.egg-info/dependency_links.txt
+[13.944s] writing entry points to ../../build/moja_paczka/moja_paczka.egg-info/entry_points.txt
+[13.945s] writing requirements to ../../build/moja_paczka/moja_paczka.egg-info/requires.txt
+[13.951s] writing top-level names to ../../build/moja_paczka/moja_paczka.egg-info/top_level.txt
+[13.968s] reading manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'
+[13.972s] writing manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'
+[13.973s] running build
+[13.974s] running build_py
+[13.974s] running install
+[13.983s] running install_lib
+[14.002s] running install_data
+[14.006s] running install_egg_info
+[14.017s] removing '/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info' (and everything under it)
+[14.031s] Copying ../../build/moja_paczka/moja_paczka.egg-info to /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info
+[14.047s] running install_scripts
+[14.221s] Installing publisher script to /home/vboxuser/ros2_ws/install/moja_paczka/lib/moja_paczka
+[14.230s] writing list of installed files to '/home/vboxuser/ros2_ws/build/moja_paczka/install.log'
+[14.488s] Invoked command in '/home/vboxuser/ros2_ws/src/moja_paczka' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/moja_paczka/prefix_override:/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/moja_paczka build --build-base /home/vboxuser/ros2_ws/build/moja_paczka/build install --record /home/vboxuser/ros2_ws/build/moja_paczka/install.log --single-version-externally-managed

@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000551] (moja_paczka) JobQueued: {'identifier': 'moja_paczka', 'dependencies': OrderedDict()}
+[0.000651] (moja_paczka) JobStarted: {'identifier': 'moja_paczka'}
+[0.089789] (-) TimerEvent: {}
+[0.190459] (-) TimerEvent: {}
+[0.297846] (-) TimerEvent: {}
+[0.406477] (-) TimerEvent: {}
+[0.507139] (-) TimerEvent: {}
+[0.607700] (-) TimerEvent: {}
+[0.708225] (-) TimerEvent: {}
+[0.810860] (-) TimerEvent: {}
+[0.911844] (-) TimerEvent: {}
+[1.012409] (-) TimerEvent: {}
+[1.113402] (-) TimerEvent: {}
+[1.215136] (-) TimerEvent: {}
+[1.315970] (-) TimerEvent: {}
+[1.416656] (-) TimerEvent: {}
+[1.517171] (-) TimerEvent: {}
+[1.617674] (-) TimerEvent: {}
+[1.719181] (-) TimerEvent: {}
+[1.820061] (-) TimerEvent: {}
+[1.921217] (-) TimerEvent: {}
+[2.022143] (-) TimerEvent: {}
+[2.123543] (-) TimerEvent: {}
+[2.224104] (-) TimerEvent: {}
+[2.324786] (-) TimerEvent: {}
+[2.425757] (-) TimerEvent: {}
+[2.526208] (-) TimerEvent: {}
+[2.627065] (-) TimerEvent: {}
+[2.727849] (-) TimerEvent: {}
+[2.828680] (-) TimerEvent: {}
+[2.930232] (-) TimerEvent: {}
+[3.031682] (-) TimerEvent: {}
+[3.137972] (-) TimerEvent: {}
+[3.238806] (-) TimerEvent: {}
+[3.340279] (-) TimerEvent: {}
+[3.440921] (-) TimerEvent: {}
+[3.542046] (-) TimerEvent: {}
+[3.643884] (-) TimerEvent: {}
+[3.744393] (-) TimerEvent: {}
+[3.844997] (-) TimerEvent: {}
+[3.945884] (-) TimerEvent: {}
+[4.046937] (-) TimerEvent: {}
+[4.148169] (-) TimerEvent: {}
+[4.248757] (-) TimerEvent: {}
+[4.349619] (-) TimerEvent: {}
+[4.455551] (-) TimerEvent: {}
+[4.556315] (-) TimerEvent: {}
+[4.657004] (-) TimerEvent: {}
+[4.763746] (-) TimerEvent: {}
+[4.864996] (-) TimerEvent: {}
+[4.965477] (-) TimerEvent: {}
+[5.065990] (-) TimerEvent: {}
+[5.166621] (-) TimerEvent: {}
+[5.267167] (-) TimerEvent: {}
+[5.368038] (-) TimerEvent: {}
+[5.468623] (-) TimerEvent: {}
+[5.569679] (-) TimerEvent: {}
+[5.670899] (-) TimerEvent: {}
+[5.772286] (-) TimerEvent: {}
+[5.873025] (-) TimerEvent: {}
+[5.973817] (-) TimerEvent: {}
+[6.075002] (-) TimerEvent: {}
+[6.176156] (-) TimerEvent: {}
+[6.276822] (-) TimerEvent: {}
+[6.377857] (-) TimerEvent: {}
+[6.478594] (-) TimerEvent: {}
+[6.579849] (-) TimerEvent: {}
+[6.681964] (-) TimerEvent: {}
+[6.782714] (-) TimerEvent: {}
+[6.883949] (-) TimerEvent: {}
+[6.904918] (moja_paczka) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/moja_paczka', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/moja_paczka/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/moja_paczka/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/ros2_ws/src/moja_paczka', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '1079', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'vboxuser', '_': '/home/vboxuser/.local/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1022,unix/ubuntu:/tmp/.ICE-unix/1022', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2a11d0a_6394_4e31_8b11_7c0853e0c469', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WJP7F2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.92', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/moja_paczka', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/moja_paczka/prefix_override:/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages:'}, 'shell': False}
+[6.984575] (-) TimerEvent: {}
+[7.085451] (-) TimerEvent: {}
+[7.186326] (-) TimerEvent: {}
+[7.287891] (-) TimerEvent: {}
+[7.389008] (-) TimerEvent: {}
+[7.489826] (-) TimerEvent: {}
+[7.590809] (-) TimerEvent: {}
+[7.691938] (-) TimerEvent: {}
+[7.792879] (-) TimerEvent: {}
+[7.893534] (-) TimerEvent: {}
+[7.994207] (-) TimerEvent: {}
+[8.095885] (-) TimerEvent: {}
+[8.196774] (-) TimerEvent: {}
+[8.297957] (-) TimerEvent: {}
+[8.399526] (-) TimerEvent: {}
+[8.500159] (-) TimerEvent: {}
+[8.603550] (-) TimerEvent: {}
+[8.704813] (-) TimerEvent: {}
+[8.805549] (-) TimerEvent: {}
+[8.906275] (-) TimerEvent: {}
+[9.007206] (-) TimerEvent: {}
+[9.108895] (-) TimerEvent: {}
+[9.210166] (-) TimerEvent: {}
+[9.311324] (-) TimerEvent: {}
+[9.412765] (-) TimerEvent: {}
+[9.507700] (moja_paczka) StdoutLine: {'line': b'running egg_info\n'}
+[9.513377] (-) TimerEvent: {}
+[9.522980] (moja_paczka) StdoutLine: {'line': b'writing ../../build/moja_paczka/moja_paczka.egg-info/PKG-INFO\n'}
+[9.528206] (moja_paczka) StdoutLine: {'line': b'writing dependency_links to ../../build/moja_paczka/moja_paczka.egg-info/dependency_links.txt\n'}
+[9.528870] (moja_paczka) StdoutLine: {'line': b'writing entry points to ../../build/moja_paczka/moja_paczka.egg-info/entry_points.txt\n'}
+[9.529586] (moja_paczka) StdoutLine: {'line': b'writing requirements to ../../build/moja_paczka/moja_paczka.egg-info/requires.txt\n'}
+[9.529900] (moja_paczka) StdoutLine: {'line': b'writing top-level names to ../../build/moja_paczka/moja_paczka.egg-info/top_level.txt\n'}
+[9.551745] (moja_paczka) StdoutLine: {'line': b"reading manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'\n"}
+[9.556029] (moja_paczka) StdoutLine: {'line': b"writing manifest file '../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt'\n"}
+[9.556804] (moja_paczka) StdoutLine: {'line': b'running build\n'}
+[9.557209] (moja_paczka) StdoutLine: {'line': b'running build_py\n'}
+[9.569727] (moja_paczka) StdoutLine: {'line': b'running install\n'}
+[9.573027] (moja_paczka) StdoutLine: {'line': b'running install_lib\n'}
+[9.588366] (moja_paczka) StdoutLine: {'line': b'running install_data\n'}
+[9.590894] (moja_paczka) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.604559] (moja_paczka) StdoutLine: {'line': b"removing '/home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.608082] (moja_paczka) StdoutLine: {'line': b'Copying ../../build/moja_paczka/moja_paczka.egg-info to /home/vboxuser/ros2_ws/install/moja_paczka/lib/python3.10/site-packages/moja_paczka-0.0.0-py3.10.egg-info\n'}
+[9.613783] (moja_paczka) StdoutLine: {'line': b'running install_scripts\n'}
+[9.614614] (-) TimerEvent: {}
+[9.715578] (-) TimerEvent: {}
+[9.814262] (moja_paczka) StdoutLine: {'line': b'Installing publisher script to /home/vboxuser/ros2_ws/install/moja_paczka/lib/moja_paczka\n'}
+[9.815746] (moja_paczka) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/moja_paczka/install.log'\n"}
+[9.816242] (-) TimerEvent: {}
+[9.916990] (-) TimerEvent: {}
+[10.017739] (-) TimerEvent: {}
+[10.028933] (moja_paczka) CommandEnded: {'returncode': 0}
+[10.118037] (-) TimerEvent: {}
+[10.219760] (-) TimerEvent: {}
+[10.321615] (-) TimerEvent: {}
+[10.426245] (-) TimerEvent: {}
+[10.527161] (-) TimerEvent: {}
+[10.552162] (moja_paczka) JobEnded: {'identifier': 'moja_paczka', 'rc': 0}
+[10.562326] (-) EventReactorShutdown: {}

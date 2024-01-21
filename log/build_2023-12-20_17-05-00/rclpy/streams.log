@@ -1,0 +1,60 @@
+[6.256s] Invoking command in '/home/vboxuser/ros2_ws/build/rclpy': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/moja_paczka:/home/vboxuser/ros2_ws/src/install/moja_paczka:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/rclpy/rclpy -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/rclpy
+[6.438s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.433s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.369s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.488s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[8.825s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.861s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.961s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.997s] -- Found rcl: 5.3.6 (/opt/ros/humble/share/rcl/cmake)
+[11.730s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.761s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.853s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.065s] -- Found rcl_action: 5.3.6 (/opt/ros/humble/share/rcl_action/cmake)
+[16.761s] -- Found rcl_lifecycle: 5.3.6 (/opt/ros/humble/share/rcl_lifecycle/cmake)
+[17.661s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[17.676s] -- Found pybind11_vendor: 2.4.2 (/opt/ros/humble/share/pybind11_vendor/cmake)
+[17.711s] -- Found pybind11: /usr/include (found version "2.9.1")
+[18.484s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.466s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[199.911s] -- Added test 'copyright' to check source files copyright and LICENSE
+[200.050s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[200.056s] -- Configured cpplint exclude dirs and/or files: 
+[200.073s] -- Added test 'flake8' to check Python code syntax and style conventions
+[200.105s] -- Added test 'lint_cmake' to check CMake code style
+[200.120s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[200.238s] -- Added test 'uncrustify' to check C / C++ code style
+[200.238s] -- Configured uncrustify additional arguments: 
+[200.267s] -- Added test 'xmllint' to check XML markup files
+[200.290s] -- Configuring done
+[200.618s] -- Generating done
+[200.650s] -- Build files have been written to: /home/vboxuser/ros2_ws/build/rclpy
+[200.751s] Invoked command in '/home/vboxuser/ros2_ws/build/rclpy' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/moja_paczka:/home/vboxuser/ros2_ws/src/install/moja_paczka:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros2_ws/src/rclpy/rclpy -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/rclpy
+[200.762s] Invoking command in '/home/vboxuser/ros2_ws/build/rclpy': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/moja_paczka:/home/vboxuser/ros2_ws/src/install/moja_paczka:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/rclpy -- -j2 -l2
+[201.512s] [  0%] Built target ament_cmake_python_symlink_rclpy
+[201.690s] [35m[1mConsolidate compiler generated dependencies of target _rclpy_pybind11[0m
+[201.973s] [  2%] [32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o[0m
+[212.653s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kbool rclpy_logging_rosout_add_sublogger(const char*, const char*)[m[K’:
+[212.654s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:213:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_logging_rosout_add_sublogger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclpy_logging_rosout_add_sublogger[m[K’?
+[212.654s]   213 |   rcl_ret_t rcl_ret = [01;31m[Krcl_logging_rosout_add_sublogger[m[K(logger_name, sublogger_name);
+[212.654s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[212.655s]       |                       [32m[Krclpy_logging_rosout_add_sublogger[m[K
+[212.744s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:216:14:[m[K [01;31m[Kerror: [m[K‘[01m[KRCL_RET_NOT_FOUND[m[K’ was not declared in this scope; did you mean ‘[01m[KRCUTILS_RET_NOT_FOUND[m[K’?
+[212.744s]   216 |   } else if ([01;31m[KRCL_RET_NOT_FOUND[m[K == rcl_ret) {
+[212.744s]       |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[212.745s]       |              [32m[KRCUTILS_RET_NOT_FOUND[m[K
+[212.796s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kvoid rclpy_logging_rosout_remove_sublogger(const char*, const char*)[m[K’:
+[212.797s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:230:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_logging_rosout_remove_sublogger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclpy_logging_rosout_remove_sublogger[m[K’?
+[212.798s]   230 |   rcl_ret_t rcl_ret = [01;31m[Krcl_logging_rosout_remove_sublogger[m[K(logger_name, sublogger_name);
+[212.798s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[212.798s]       |                       [32m[Krclpy_logging_rosout_remove_sublogger[m[K
+[220.258s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kbool rclpy_logging_rosout_add_sublogger(const char*, const char*)[m[K’:
+[220.258s] [01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:223:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[220.259s]   223 | [01;35m[K}[m[K
+[220.259s]       | [01;35m[K^[m[K
+[221.625s] gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:76: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o] Error 1
+[221.626s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/_rclpy_pybind11.dir/all] Error 2
+[221.628s] gmake: *** [Makefile:146: all] Error 2
+[221.655s] Invoked command in '/home/vboxuser/ros2_ws/build/rclpy' returned '2': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/moja_paczka:/home/vboxuser/ros2_ws/src/install/moja_paczka:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/rclpy -- -j2 -l2

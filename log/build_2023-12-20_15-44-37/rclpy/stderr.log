@@ -1,0 +1,21 @@
+[01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kbool rclpy_logging_rosout_add_sublogger(const char*, const char*)[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:213:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_logging_rosout_add_sublogger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclpy_logging_rosout_add_sublogger[m[K’?
+  213 |   rcl_ret_t rcl_ret = [01;31m[Krcl_logging_rosout_add_sublogger[m[K(logger_name, sublogger_name);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krclpy_logging_rosout_add_sublogger[m[K
+[01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:216:14:[m[K [01;31m[Kerror: [m[K‘[01m[KRCL_RET_NOT_FOUND[m[K’ was not declared in this scope; did you mean ‘[01m[KRCUTILS_RET_NOT_FOUND[m[K’?
+  216 |   } else if ([01;31m[KRCL_RET_NOT_FOUND[m[K == rcl_ret) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |              [32m[KRCUTILS_RET_NOT_FOUND[m[K
+[01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kvoid rclpy_logging_rosout_remove_sublogger(const char*, const char*)[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:230:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_logging_rosout_remove_sublogger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclpy_logging_rosout_remove_sublogger[m[K’?
+  230 |   rcl_ret_t rcl_ret = [01;31m[Krcl_logging_rosout_remove_sublogger[m[K(logger_name, sublogger_name);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krclpy_logging_rosout_remove_sublogger[m[K
+[01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:[m[K In function ‘[01m[Kbool rclpy_logging_rosout_add_sublogger(const char*, const char*)[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/rclpy/rclpy/src/rclpy/_rclpy_logging.cpp:223:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  223 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:76: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/_rclpy_pybind11.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

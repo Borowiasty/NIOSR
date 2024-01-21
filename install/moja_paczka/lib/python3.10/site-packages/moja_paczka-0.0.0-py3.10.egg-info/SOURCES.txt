@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/moja_paczka/moja_paczka.egg-info/PKG-INFO
+../../build/moja_paczka/moja_paczka.egg-info/SOURCES.txt
+../../build/moja_paczka/moja_paczka.egg-info/dependency_links.txt
+../../build/moja_paczka/moja_paczka.egg-info/entry_points.txt
+../../build/moja_paczka/moja_paczka.egg-info/requires.txt
+../../build/moja_paczka/moja_paczka.egg-info/top_level.txt
+../../build/moja_paczka/moja_paczka.egg-info/zip-safe
+moja_paczka/__init__.py
+moja_paczka/publisher.py
+resource/moja_paczka
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
