@@ -1,3 +1,0 @@
-[console_scripts]
-publisher = moja_paczka.publisher:main
-
